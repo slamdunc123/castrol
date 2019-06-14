@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-image: url('./images/castrol.png');
+  /* opacity: 0.2 */
+  background-position: bottom; 
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(211,211,211,0.7) 0%,rgba(211,211,211,0.7) 100%), url('./images/castrol.png');
+}
+
+.container {
+  font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* SLIDES */
+
+.slides {
+  margin: 50px 0;
+}
+
+.card {
+  width: 22rem;
+  margin: 20px;
+  background-color: rgba(211, 211, 211, 0.9);
+}
+
+@media only screen and (min-width: 576px) {
+  .card {
+      width: 24rem;
+  }
+}
+
+.card-header {
+  background-color: #00833e;
+  font-size: 14px;
+}
+
+.card-body a {
+  color: #00833e;
+  padding: 0;
+}
+
+.card-body img {
+  width: 20rem;
+}
+
+/* SLIDERS */
+
+.slidecontainer {
+  text-align: left;
+}
+
+.slidecontainer-text {
+  text-align: right;
+}
+
+#slider-four {
+  border: 1px solid #000;
+}
+
+#slider-four img {
+  width: 1rem;
+}
+
+/* HEADER */
+
+.navbar {
+  background-color: #00833e;
+}
+
+/* FOOTER */
+
+.navbar-footer {
+  background-image: linear-gradient(#aeaeae, #5b5b5b);
+  padding: 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #00833e;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+
+
+
+
